@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "Mastering React 19 Actions and the useOptimistic Hook",
+    "category": "React",
+    "date": "Nov 12, 2026",
+    "readTime": "5 min read",
+    "excerpt": "Explore how React 19 revolutionized async transitions, form submissions, and optimistic UI updates without cumbersome boilerplate code.",
+    "author": "Prahadeesh K",
+    "tags": ["React 19", "Hooks", "Async", "Frontend"],
+    "content": "React 19 introduces server actions and the useOptimistic hook directly into standard frontend architectures. Instead of wrestling with multiple boolean state variables (isLoading, isPending, isError), developers can now bind asynchronous functions directly to form actions and trigger optimistic state mutations with instant UI reconciliation."
+  },
+  {
+    "id": 2,
+    "title": "Modern CSS Grid & Subgrid: Layouts Without Breakage",
+    "category": "CSS",
+    "date": "Nov 10, 2026",
+    "readTime": "4 min read",
+    "excerpt": "A deep dive into CSS Subgrid capabilities for aligning nested card contents, dynamic headers, and variable-length descriptions seamlessly.",
+    "author": "Prahadeesh K",
+    "tags": ["CSS3", "Grid", "Subgrid", "Responsive"],
+    "content": "CSS Subgrid solves one of the oldest dilemmas in web layout design: aligning internal elements of sibling cards whose parent is a grid container. With grid-template-rows: subgrid, every card's title, image, body, and action buttons align to the exact same track heights regardless of fluctuating copy length."
+  },
+  {
+    "id": 3,
+    "title": "From Problem Statement to Working MVP in 36 Hours: The SIH Playbook",
+    "category": "Hackathons",
+    "date": "Nov 08, 2026",
+    "readTime": "7 min read",
+    "excerpt": "Actionable blueprints for winning nationwide hackathons like SIH, TECHAVANAM, and Flipkart GRID 8.0 through disciplined sprint engineering.",
+    "author": "Prahadeesh K",
+    "tags": ["SIH", "Hackathons", "Prototyping", "MVP"],
+    "content": "Competing in premier hackathons requires balancing architectural rigor with aggressive scoping. The 36-hour sprint demands three phases: Hour 0-6 for schema freezing and wireframing; Hour 6-24 for vertical slicing of core user flows; Hour 24-36 for edge case polish, latency tuning, and punchy demo storytelling."
+  },
+  {
+    "id": 4,
+    "title": "Understanding React Component Lifecycle and Custom Hooks in 2026",
+    "category": "React",
+    "date": "Nov 05, 2026",
+    "readTime": "6 min read",
+    "excerpt": "Why custom hooks remain the ultimate abstraction layer in modern React applications for separating presentation from business logic.",
+    "author": "Prahadeesh K",
+    "tags": ["React", "Custom Hooks", "Architecture", "State"],
+    "content": "By creating purposeful custom hooks such as useDebounce, useLocalStorage, and useNetworkStatus, React developers achieve true separation of concerns. UI components remain declarative presentation shells while custom hooks encapsulate reactive side-effects and data-fetching lifecycles cleanly."
+  },
+  {
+    "id": 5,
+    "title": "CSS Container Queries: The True Responsive Design Revolution",
+    "category": "CSS",
+    "date": "Nov 02, 2026",
+    "readTime": "5 min read",
+    "excerpt": "Move beyond viewport-based media queries. Learn how `@container` rules empower components to style themselves based on their immediate container width.",
+    "author": "Prahadeesh K",
+    "tags": ["CSS", "Container Queries", "Modular UI"],
+    "content": "Media queries look at the entire browser window, forcing fragile overrides when a component sits in a sidebar versus the main column. CSS Container Queries let individual widgets respond to their own container boundaries, creating truly portable, resilient design system primitives."
+  },
+  {
+    "id": 6,
+    "title": "Engineering High-Throughput E-Commerce Systems for Flipkart GRID",
+    "category": "Hackathons",
+    "date": "Oct 28, 2026",
+    "readTime": "8 min read",
+    "excerpt": "Technical breakdown of building resilient, scalable pipelines for flash sales, inventory locks, and dynamic routing in Flipkart GRID 8.0.",
+    "author": "Prahadeesh K",
+    "tags": ["Flipkart GRID", "System Design", "Logistics", "Hackathons"],
+    "content": "During Flipkart GRID 8.0, we faced extreme concurrency constraints simulating flash-sale inventory contention. By coupling optimistic concurrency control with in-memory message queues and predictive geospatial route clustering, our solution demonstrated near-zero lock starvation."
+  },
+  {
+    "id": 7,
+    "title": "State Management in Modern React: When Do You Truly Need External Stores?",
+    "category": "React",
+    "date": "Oct 22, 2026",
+    "readTime": "6 min read",
+    "excerpt": "A pragmatic comparison of React Context, useState, useReducer, and lightweight external stores like Zustand for scalable MERN applications.",
+    "author": "Prahadeesh K",
+    "tags": ["React", "Zustand", "Context API", "Performance"],
+    "content": "Before reaching for complex external stores, consider whether your state is truly global or merely collocated. This article explores state hoisting, context splitting to prevent re-render cascades, and when a atomic or micro-store library like Zustand is genuinely warranted."
+  },
+  {
+    "id": 8,
+    "title": "Fluid Typography and CSS clamp(): Goodbye Breakpoint Chaos",
+    "category": "CSS",
+    "date": "Oct 15, 2026",
+    "readTime": "4 min read",
+    "excerpt": "How mathematical clamp() functions eliminate rigid media query jumps, creating smooth scaling font sizes and spacing across all screens.",
+    "author": "Prahadeesh K",
+    "tags": ["CSS", "clamp()", "Typography", "Fluid Design"],
+    "content": "Instead of writing tedious media query blocks for every device breakpoint, clamp(min, preferred, max) produces continuously fluid typography that scales harmoniously with viewport width. Learn the exact viewport math formulas for responsive headers and gutters."
+  }
+]
